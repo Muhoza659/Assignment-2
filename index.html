@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Exercises on DOM</title>
+    
+</head>
+<body id="Rn" >
+    <!-- Exercise 1 -->
+   <p id="myText">Hello</p>
+   <button id="changeBtn">Click Me</button>
+   <!-- Exercise 2 -->
+   <div id="styleBox" style="width:200px;height:110%;background:lightyellow;font-size:20px;line-height:100px;text-align:center;cursor:pointer; margin-top: 10px;" >
+      Add Me!
+   </div>
+   <!-- Exercise 3 -->
+      <style>
+         .highlight{
+         background-color: lightsalmon;
+         font-weight: bold;
+         }
+      </style>
+   
+      <ul>
+         <li id="item1">Item 1</li>
+         <li id="item2">Item 2</li>
+         <li id="item3">Item 3</li>
+      </ul>
+      <!-- Exercise 4 -->
+      <h2>My List</h2>
+      <ul id="myList"></ul>
+
+      <input type="text" id="newItemText" placeholder="Enter new item">
+      <button id="addBtn" style="margin-left: 8px;">Add Item</button>
+      
+    <!-- Exercise 5 -->
+     <h2>My List</h2>
+
+    <ul id="myItems" >
+       <li id="item4">Clothes <button id="delete1">Delete</button></li>
+       <li id="item5">Shoes <button id="delete2">Delete</button></li>
+       <li id="item6">Bags <button id="delete3">Delete</button></li>
+    </ul>
+     <!-- Exercise 6 -->
+      <button id="Btn">Click Me</button>
+      <p id="hoverText">Hover over me!</p>
+      <input id="keyInput" placeholder="Type something...">
+      <p id="message"></p>
+      
+      <h3> Drawing Area</h3>
+      <div id="drawArea"></div>
+      <!-- Exercise 7 -->
+         <style>
+            .box {
+            border: 1px solid #333;
+            padding: 10px;
+            margin: 10px;
+            cursor: pointer;
+          }
+           .highlight {
+            background-color:lightsalmon;
+          }
+        </style>
+        <div class="box" id="parentBox">
+          Parent
+          <div class="box" id="child1">Child 1</div>
+          <div class="box" id="child2">Child 2</div>
+          <div class="box" id="child3">Child 3</div>
+       </div>
+
+      <!-- Exercise 8 -->
+       <style>
+           input {
+              margin-bottom: 10px;
+              display: block;
+              padding: 5px;
+          }
+          #error {
+            color: red;
+            margin-bottom: 10px;
+          }
+          #output {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #333;
+            width: fit-content;
+           }
+         </style>
+        <form id="myForm">
+           <label for="name">Name:</label>
+           <input type="text" id="name" placeholder="Enter your name">
+
+           <label for="age">Age:</label>
+           <input type="number" id="age" placeholder="Enter your age">
+
+           <button type="submit">Submit</button>
+           <p id="error" class="error"></p>
+        </form>
+
+    <div id="output"></div>
+      <!-- Exercise 9 -->
+       
+        <style>
+         li{
+            margin: 5px;
+         }
+         .searchInput{
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 200px;
+
+         }
+        </style>
+         <input type="text" id="search" placeholder="search by name..."> 
+        <ul id="container"></ul> 
+   
+     <!--Exercise 10-->
+  <h2>Click the box to animate</h2>
+  <style>
+    #box {
+      width: 100px;
+      height: 100px;
+      background-color:lightblue;
+      transition: all 0.5s ease;
+      margin: 20px;
+    }
+  </style>
+   <div id="box"></div>
+   <h2>Bouncing Ball</h2>
+   <canvas id="ballCanvas" width="400" height="200" style="border:1px solid black;"></canvas>
+  <script src="app.js"></script>
+</body>
+</html>
+       
+   <script src="script.js"></script>
+
+</body>
+</html>
