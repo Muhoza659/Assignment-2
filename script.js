@@ -102,6 +102,7 @@ body.style.backgroundColor =  "lightgreen";
     dot.style.top = event.offsetY + "px";
     drawArea.appendChild(dot);
   });
+   
     // Exercise 7
       let boxes = document.querySelectorAll('.box');
 
